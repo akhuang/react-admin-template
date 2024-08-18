@@ -67,3 +67,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+.timeline-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px; /* 调整间距 */
+}
+
+.timeline-line {
+  margin-right: 16px; /* 调整间距 */
+}
+
+.timeline-content {
+  flex: 1;
+}
