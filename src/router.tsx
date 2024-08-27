@@ -19,6 +19,11 @@ const router = createBrowserRouter([
               lazy: async () => ({
                 Component: (await import('./pages/timeline')).default,
               }),
+            },{
+              path: 'demo',
+              lazy: async () => ({
+                Component: (await import('./pages/demo')).default,
+              }),
             },
         ]
       },

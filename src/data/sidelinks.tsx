@@ -50,7 +50,7 @@ export const sidelinks: SideLink[] = [
   {
     title: 'Chats',
     label: '9',
-    href: '/chats',
+    href: '/demo',
     icon: <IconMessages size={18} />,
   },
   {
